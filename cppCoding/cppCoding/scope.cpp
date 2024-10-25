@@ -17,7 +17,9 @@ int main()
     {
         sum += val; 
     }
+    int mod = sum % 2;
     cout << "Sum of 1 to 10 inclusive is " << sum << endl;
+    cout << "Sum of inclusive mod 2 is " << mod << endl;
 
     return 0;
 }
